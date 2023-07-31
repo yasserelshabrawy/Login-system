@@ -1,0 +1,33 @@
+body{
+    background-color: #24353f;
+}
+
+.sign{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1{
+    color: #17a2b8;;
+}
+.form-control{
+    background-color: transparent;
+}
+.form-control:focus{
+    background-color: transparent;  
+    color: white;
+    box-shadow: none;
+}
+::placeholder{
+    color: white !important;
+}
+button {
+    
+    color: #17a2b8;
+    border-radius: 5px;
+    border: 1px solid #17a2b8;
+}
+span{
+    cursor: pointer;
+}
+span:hover{
+     text-decoration: underline;
+}

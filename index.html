@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row" id="row1">
+            <div class="col-md-9 mx-auto p-5 my-5 sign">
+                <h1 class="text-center">Smart Login System</h1>
+                <input id="userEmail" type="email" placeholder="Enter Your Email" class="form-control mx-auto my-3">
+                <input id="userPassword" type="password" placeholder="Enter Your Password" class="form-control mx-auto my-3">
+                <p id="error" class="text-center text-danger d-none">All input is required</p>
+                <button id="login" class="d-inline-block btn btn-outline-info w-100 p-1 login my-3">Login</button>
+                <p class="text-center text-white fs-5">Don’t have an account? <span id="sign1">Sign Up</span></p>
+            </div>
+            
+        </div>
+        <div class="row d-none" id="row2">
+            <div class="col-md-9 mx-auto p-5 my-5 sign">
+                <h1 class="text-center">Smart Login System</h1>
+                <input id="newName" type="text" placeholder="Enter Your Name" class="form-control mx-auto my-3">
+                <input id="newEmail" type="email" placeholder="Enter Your Email" class="form-control mx-auto my-3">
+                <input id="newPassword" type="password" placeholder="Enter Your Password" class="form-control mx-auto my-3">
+                <p id="required" class="text-center text-danger"></p>
+                <button onclick="signUp()" id="signup" class="d-inline-block btn btn-outline-info w-100 p-1 login my-3">Sign Up</button>
+                <p class="text-center text-white fs-5">You have an account? <span id="sign2">Sign in </span></p>
+            </div>
+            
+        </div>
+        <div class="row d-none" id="row3">
+            <div class="col-md-9 mx-auto p-5 my-5 sign">
+                <h1 id="welcome" class="text-center">Welcome</h1>
+                <button id="logout" class="d-inline-block btn btn-outline-info w-100 p-1 login my-3">Logout</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
